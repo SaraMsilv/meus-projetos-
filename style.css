@@ -1,0 +1,147 @@
+body{
+     background-color: bisque;
+     margin: 0
+}
+#menu{
+    background-color: rgb(143, 58, 58);
+    width: 300px;
+    height: 1000px;
+    text-align: center;
+    box-shadow: 5px 0px 5px rgb(0, 0, 0); 
+    margin-top: -19px;   
+}
+.logo{
+     width: 150px;
+     margin-top: 60px;
+     border: 6px double bisque                                 ;
+     border-radius: 50%; 
+     box-shadow: 5px 5px 5px rgb(0, 0, 0);                                                                                      
+}                            
+h1,h2{
+     font-size: 1.6rem;
+     font-family: sans-serif;
+     color:bisque;
+     text-shadow: 5px 0px 5px rgb(189, 174, 174);
+}     
+.links{
+     text-decoration: none;
+     color: bisque;
+     font-size: 23px;
+     display: flex;
+     flex-direction: column;
+     padding: 1rem;
+     transition: all 0.5s ease;
+}   
+     
+
+.links:hover 
+ {    
+     background-color: bisque;
+     color:rgb(143, 58, 58);
+     font-weight: 600px;
+     
+}
+
+     header{
+          float: left;
+     }
+
+     .info01{
+          background-color: rgb(143,58,58);
+          margin: 1rem 1rem 1rem 21rem;
+          padding: 1rem;
+          border-radius: 15px;
+         
+     }
+
+     .info02{
+          background-color: rgb(143,58,58);
+          margin: 1rem 1rem 1rem 1rem;
+          padding: 1rem;
+          border-radius: 15px;
+          width: 250px;
+          height: 200px;
+     }
+
+     .info03{
+          background-color: rgb(143,58,58);
+          margin: 1rem 1rem 1rem 1rem;
+          padding: 1rem;
+          border-radius: 15px;
+          width: 250px;
+          height: 200px;
+     }
+
+     .info04{
+          background-color: rgb(143,58,58);
+          margin: 1rem 1rem 1rem 1rem;
+          padding: 1rem;
+          border-radius: 15px;
+          width: 250px;
+          height: 200px;
+     }
+
+     .info05{
+          background-color: rgb(143,58,58);
+          margin: 1rem 1rem 1rem 1rem;
+          padding: 1rem;
+          border-radius: 15px;
+          width: 250px;
+          height: 200px;
+     }
+
+     .info06{
+          background-color: rgb(143,58,58);
+          margin: 1rem 1rem 1rem 1rem;
+          padding: 1rem;
+          border-radius: 15px;
+          width: 250px;
+          height: 200px;
+     }
+
+     .info07{
+          background-color: rgb(143,58,58);
+          margin: 1rem 1rem 1rem 1rem;
+          padding: 1rem;
+          border-radius: 15px;
+          width: 250px;
+          height: 200px;
+     }
+     #conteudo{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+
+     }
+
+     footer{
+          background-color: rgb(143,58,58);
+          font-size: 1.8rem;
+          text-align: center;
+          margin: -2px;
+          padding: 0.5rem;
+          clear: both;
+     }
+     p{
+          font-size: 1rem;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+     }
+
+     li{
+          font-family: serif;
+     }
+     h3{
+          text-align: center;
+          font-size: 1.5rem;
+          font-family: sans-serif;
+          text-shadow: 5px 5px 10px rgb(143, 58, 58);
+     }
+     
+
+      
+     
+
+     
+
+     
+     

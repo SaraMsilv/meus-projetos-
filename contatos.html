@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/icon-contato.png"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_contatos.css">
+    <title>contatos</title>
+</head>
+<body>
+    <header id="menu">
+    <img class="logo" src="imagens/sarita.jpg" alt="/logo">
+   <h1>Portfólio e Currículo</h1>
+
+    <h2>Sara Menezes da Silva</h2>
+
+    <nav> 
+    <a class="links" href="index.html">Currículo</a>
+    <a class="links" href="portfólio.html">Portfólio</a>
+    <a class="links" href="contatos.html">Contatos</a> 
+    </nav> 
+
+    </header>
+   
+    <main>
+    <div class="info01">
+    <h3>Informações Pessoais</h3>
+    <ul>
+    <li>End: Av.Prefeito Antonio Praticí - 100</li>
+    <li>Cidade: Guarulhos, SP</li>
+    <li>Estado: São Paulo</li>
+    <li>Telefone: (11)963050097</li>
+    <li>E-mail: menezessara515@gmail.com</li>
+    <li>Brasileiro e Solteira</li>
+    </ul>
+    </div>
+    </main>
+
+    <main>
+        <div>
+            <form action="mailto:fulano@gmail.com">
+        
+                <fieldset id="usuario">
+                    <legend>Formulário de clientes</legend>
+        
+                    <p>
+                    <label>Nome completo:</label>
+                    <input type="text" name="nome" id="cnome" size="50" maxlength="45" placeholder="Digite seu nome completo" required >
+                    </p>
+        
+                    <p>
+                    <label> Senha:</label>
+                    <input type="password" name="senha" id="csenha" size="8" maxlength="8" placeholder="Digite aqui sua senha">
+                    </p>
+        
+                    <p>
+                        <label>E-mail:</label>
+                        <input type="email" name="email" id="cemail" size="30" maxlength="30" placeholder="Digite aqui seu E-mail">
+                    </p>
+        
+                    <fieldset id="sexo">
+                        <legend>Sexo:</legend>
+                        <p>
+                            <input type="radio" name="sexo" id="cmasc" checked><label>Masculino</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="sexo" id="cfem"><label>Feminino</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="sexo" id="cout"><label>Outro</label>
+                        </p>
+                    </fieldset>
+                    <p>
+                        <label>Data de Nascimento</label>
+                        <input type="date" name="nasc" id="cnasc">
+                    </p>
+                </fieldset>
+        
+                <fieldset id="endereco">
+                    <legend>Endereço do Usuário</legend>
+                    <p>
+                        <label>Logradouro</label>
+                        <input type="text" name="rua" id="crua" size="50" maxlength="50" placeholder="Rua, Av., Trav...">
+                    </p>
+                    <p>
+                        <label>Número</label>
+                        <input type="number" name="num" id="cnum" size="5" min="1" max="9999" >
+                    </p>
+                    <p>
+                        <label>Estado:</label>
+                        <select name="estado" id="cestado">
+                            <option value="AC">Acre</option>
+                                <option value="AL">Alagoas</option>
+                                <option value="AP">Amapá</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>
+                                <option value="DF">Distrito Federal</option>
+                                <option value="ES">Espírito Santo</option>
+                                <option value="GO">Goiás</option>
+                                <option value="MA">Maranhão</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MS">Mato Grosso do Sul</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="PA">Pará</option>
+                                <option value="PB">Paraíba</option>
+                                <option value="PR">Paraná</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="RR">Roraima</option>
+                                <option value="SC">Santa Catarina</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="SE">Sergipe</option>
+                                <option value="TO">Tocantins</option>
+                                <option value="EX">Estrangeiro</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label>Cidade</label>
+                        <input type="text" name="cidade" id="ccid" size="20" maxlength="20" placeholder="Digite sua cidade.">
+                    </p>
+                </fieldset>
+        
+                <fieldset id="mensagem">
+                    <legend>Mensagem do Usuário</legend>
+                    <p>
+                        <label>Mensagem:</label>
+                    </p>
+                    <p>
+                        <textarea name="msg" id="cmsg" cols="50" rows="10" placeholder="Digite aqui sua mensagem" maxlength="1000"> </textarea>
+                    </p>
+                </fieldset>
+        
+                <input type="button" value="Enviar" class="btn" name="enviar">
+        
+                <input type="reset" value="Limpar" class="btn" name="limpar">
+        
+            </form>
+        </div>
+        
+            </main>
+    
+
+    
+     </div>
+
+    <footer>
+    Desing Sara Menezes, Portfólio - 2024
+    </footer>
+
+
+
+</body>
+</html>
